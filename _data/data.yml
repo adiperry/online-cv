@@ -3,187 +3,203 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Adi Perry
+    tagline: Researcher, Engineer, Manager.
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: perryad@gmail.com
+    phone:
+    website:  #do not add http://
+    linkedin: adi-perry-2a0b8b49
+    github: adiperry
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@adiperryx'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Hebrew
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Basic
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
+      - item: AR/VR
         link:
 
       - item: Cooking
         link:
 
+      - item: Music
+        link:
+
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced in conducting research and taking it into product, 
+      working on complex systems closely with HW, SW, System and Product teams. 
+      Over 15 years of algorithm development, and over 10 years of Computer Vision R&D.
+      Passionate about Computer Vision, 3D, Deep Learning and AI. Excited about AR/VR.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: M.Sc. in Electrical Engineering studies, with Thesis.
+      university: Tel Aviv University
+      time: 2010 - 2014
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Research in Computer Vision. Early detection of events on resource limited platforms.  
+        Supervised by Prof. Nahum Kiryati. Published papers. Thesis not submitted.
+    - degree: B.Sc. in Electrical Engineering and B.Sc. in Physics (with honors).
+      university: Tel Aviv University
+      time: 2001 - 2005
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Majored in Electro-optics, Microelectronics and Bio-electronics.
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Manager, Computer Vision
+      time: Jan 2016 - May 2020
+      company: Magic Leap Israel
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        * Led a team of researchers, SW developers and prototypers, conducting applied research for [perception](https://sites.google.com/view/perceptionatmagicleap/cvpr2019/what-we-will-cover) features for Magic Leap platforms. Some deployed on *Magic Leap 1*, some will be deployed on the *Magic Leap 2* (the next gen product).
+        * Areas of research - SLAM, Light Estimation, 3D Reconstruction, Localization and Pose Estimation.
+        * Combining classical / geometrical computer vision with modern Deep Learning approaches to achieve state of the art performance within compute/memory budget on our DSP/ARM platforms.
+        * Was the RI (*Responsible Individual*) of the entire head pose tracking pipeline for the *Magic Leap 2*, leading a global virtual team of researchers (contributions from teams in the USA and Zurich), with challenging new seasons and architecture.
+        * Developed SoTA Machine Learning components - keypoint detector, pose prediction, feature descriptor, light estimation, multi-camera large-scale localization.
+        * Worked closely with HW, Systems and Product teams and supported novel sensor development, complex calibrations, image processing pipelines, etc. 
+
+        Previously:
+        - Manager, Computer Vision - Feb 2018 - Apr 2020
+        - Lead Algorithm Engineer -  Jan 2017 - Feb 2018
+        - Senior Computer Vision Engineer - Jan 2016 - Jan 2017
+    - role: Algorithms Development Manager
+      time: Aug 2014 – Jan 2016
+      company: EVERYSIGHT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        * R&D of algorithms for the [Raptor](https://everysight.com/), an AR wearable device for cyclists.
+        * Prototyped features for 3DOF tracking, ride video summary, video stabilization, visual tracking, naive SLAM, sensors processing. 
+        * Implemented a lightweight 3D entity engine for AR (for our platform).
+    - role: Algorithms Developer (Computer Vision)
+      time: Nov 2010 – Aug 2014
+      company: Elbit Systems Aerospace
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        * R&D of algorithms for: obstacles detection, video-based rendering, motion detection, Image enhancement, objects detection, outdoors surveillance, image registration.
+        * Led a small-scale project (outdoors surveillance) and a small team (2 students). 
+    - role: Algorithms Developer & Team Leader, EW Techniques 
+      time: Sep 2005 – Jul 2010
+      company: Israeli Navy
+      details: |
+        * Developed algorithms for EW/ECM systems.
+        * Modeling and simulation of physical HW and SW, including execution and analysis of experiments and performing reverse engineering.
+    - role: Freelance software 
+      time: Jul-Aug 2001
+      company: Weizmann Institute, The Department of Science Teaching
+      details: |
+        * Developed software (Hebrew interface, GUI and tools) for an IDE used by all of the computer classes in Israeli high-schools in Artificial Intelligence tracks.          
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      * [List of publications available here](https://scholar.google.com/citations?user=ZfO5MUMAAAAJ&hl=en&oi=ao)    
+      * Recent patents pending (feature detector, pose prediction and large-scale pose estimation).
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    #   - title: The Art of Computer Programming
+    #     link: "#"
+    #     authors: Donald E. Knuth
+    #     conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    #   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+    #     link: "#"
+    #     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+    #     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    #   - title: A syntax directed compiler for Algol 60
+    #     link: "#"
+    #     authors: Edgar T. Irons
+    #     conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: C++
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Matlab
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Java
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: OpenCV
+        level: 95%
+
+      - name: PyTorch
+        level: 90%
+
+      - name: g2o
+        level: 85%
+  
+      - name: IPython / Jupyter
+        level: 98%
+
+      - name: NumPy
+        level: 95%
+
+      - name: Pandas
+        level: 85%
+
+      - name: Git
+        level: 90%
+
+      - name: SLAM
+        level: 95%
+
+      - name: 3D / Multi-view Geometry
+        level: 90%
+      
+      - name: Deep Learning (Vision)
+        level: 90%
+      
+      - name: Network Architecture Optimization
+        level: 85%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
